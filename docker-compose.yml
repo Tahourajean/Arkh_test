@@ -1,0 +1,18 @@
+version: '2'
+services:
+  server:
+    image: ktahoura/server_part
+    networks:
+      - network_1
+    expose:
+      - 5000
+  solver:
+    depends_on:
+      - server
+    image: ktahoura/tiny_python
+    networks:
+      - network_1
+
+networks:
+  network_1:
+    driver: bridge
