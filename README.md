@@ -1,5 +1,6 @@
 # Arkh_test
-#Étape 1
+
+# Étape 1
 
 
 j'ai créé un petit fichier de test pour vérifier si ma fonction est bien exécutée. laissez s'exécuter sur la première console
@@ -38,14 +39,14 @@ En bonus :-), j'ai réalisé un fichier Docker-compose pour lancer plusieurs con
 
 docker-composer
 
-Étape 3
+# Étape 3
 Utilisation d'un CI pour créer une publication de votre image Docker. J'utilise Github Action.
 
 J'ai créé des secrets github avec les informations d'identification du hub docker.Je crée un événement sur demande push et pull.
 
 Cet événement testera le code et extraira l'image docker sur le hub docker
 
-Étape 4
+# Étape 4
 Explication de la partie automatisation Ansible
 Tout d'abord, j'ai installé Vagrant et le plugin supplémentaire vagrant-disksize
 
